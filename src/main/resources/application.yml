@@ -1,0 +1,4 @@
+spring:
+  data:
+    mongodb:
+      uri: mongodb+srv://rafameireles2011:<password>@cluster0.o4wynqi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
