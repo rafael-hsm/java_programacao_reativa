@@ -1,4 +1,4 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://rafameireles2011:<password>@cluster0.o4wynqi.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0
+      uri: mongodb+srv://${DB_USER:admin}:${DB_PASSWORD}@cluster0.o4wynqi.mongodb.net/${DB_NAME}?retryWrites=true&w=majority&appName=Cluster0
