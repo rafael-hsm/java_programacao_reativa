@@ -1,7 +1,8 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://${DB_USER:admin}:${DB_PASSWORD}@microblog-application.dbjo0y7.mongodb.net/?retryWrites=true&w=majority&appName=${DB_NAME:webflux-course}
+      uri: mongodb+srv://${DB_USER}:${DB_PASSWORD}@microblog-application.dbjo0y7.mongodb.net/{DB_NAME}?retryWrites=true&w=majority
+
       auto-index-creation: true
   application:
     name: webflux-course

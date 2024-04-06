@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.RequestBody;
 
 import br.com.rafaelmeireles.webfluxcourse.model.request.UserRequest;
 import br.com.rafaelmeireles.webfluxcourse.model.response.UserResponse;
+import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 
 public interface UserController {
