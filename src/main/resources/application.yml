@@ -1,7 +1,7 @@
 spring:
   data:
     mongodb:
-      uri: mongodb+srv://${DB_USER}:${DB_PASSWORD}@microblog-application.dbjo0y7.mongodb.net/{DB_NAME}?retryWrites=true&w=majority
+      uri: mongodb+srv://User_teste:Murdock@microblog-application.dbjo0y7.mongodb.net/microblog-application?retryWrites=true&w=majority
 
       auto-index-creation: true
   application:
